@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include finrich *.css
+recursive-include finrich *.csv
+recursive-include finrich *.html
+recursive-include finrich *.ico
+recursive-include finrich *.js
+recursive-include finrich *.json
+recursive-include finrich *.md
+recursive-include finrich *.png
+recursive-include finrich *.py
+recursive-include finrich *.svg
+recursive-include finrich *.txt
+recursive-exclude finrich *.pyc
